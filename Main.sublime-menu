@@ -1,0 +1,33 @@
+[
+    {
+        "id": "preferences",
+        "children": [{
+            "id": "package-settings",
+            "children": [{
+                "caption": "Insert Date Time",
+                "children": [
+                    {
+                        "command": "edit_settings", "args":
+                        {
+                            "base_file": "${packages}/DateTime/Now.sublime-settings",
+                            "default": "// Settings in here override those in \"DateTime/Now.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"
+                        },
+                        "caption": "Settings"
+                    },
+                    {"caption": "-"},
+                    {
+                        "command": "edit_settings", "args":
+                        {
+                            "base_file": "${packages}/DateTime/Default ($platform).sublime-keymap",
+                            "default": "[\n\t$0\n]\n"
+                        },
+                        "caption": "Key Bindings"
+                    },
+                    // todo/fred: implement switching locale from input
+                    // {"caption": "-"},
+                    // {"command": "now", "args": {"what": "date_time"}, "caption": "Select Locale"},
+                ]
+            }]
+        }]
+    }    
+]

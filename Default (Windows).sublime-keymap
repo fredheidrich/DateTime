@@ -1,0 +1,18 @@
+[
+	/*
+	# Commands
+
+	now: Insert the current timestamp with formatting
+
+	Args:
+		"part": the part of the formatted date time to insert.
+
+		Options:
+		- "data_time"
+		- "date"
+		- "time"
+	*/
+    { "keys": ["ctrl+alt+8"], "command": "now", "args": { "part": "date_time" }},
+    { "keys": ["ctrl+alt+9"], "command": "now", "args": { "part": "date" }},
+    { "keys": ["ctrl+alt+0"], "command": "now", "args": { "part": "time" }}
+]

@@ -1,0 +1,16 @@
+{
+    "locale": "default",
+
+    "locales": {
+        "default": {
+            "date_time_format": "%d/%m/%y %H:%M",
+            "date_format": "%d/%m/%y",
+            "time_format": "%H:%M",
+        },
+        "compact": {        	
+            "date_time_format": "%d%m%y%H%M",
+            "date_format": "%d%m%y",
+            "time_format": "%H%M",
+        }
+    },
+}

@@ -1,0 +1,5 @@
+[
+    { "keys": ["super+shift+8"], "command": "now", "args": { "part": "date_time" }},
+    { "keys": ["super+shift+9"], "command": "now", "args": { "part": "date" }},
+    { "keys": ["super+shift+0"], "command": "now", "args": { "part": "time" }}
+]

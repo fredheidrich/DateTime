@@ -1,0 +1,5 @@
+[
+    {"caption": "Now: Date Time", "command": "now", "args": { "part": "date_time" } },
+    {"caption": "Now: Date", "command": "now", "args": { "part": "date" } },
+    {"caption": "Now: Time", "command": "now", "args": { "part": "time" } },
+]
